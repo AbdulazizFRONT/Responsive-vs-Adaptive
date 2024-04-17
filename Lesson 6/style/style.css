@@ -1,0 +1,13 @@
+
+input{
+    width: 300px;
+    height: 45px;
+}
+
+input[type=text]{
+    color: red;
+}
+
+input::placeholder{
+    color: red;
+}

@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+}
+
+.col-1{
+    gap: 10px;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(247, 125, 38);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.row-2{
+    display: flex;
+}
+
+.col-2{
+    gap: 10px;
+    width: 100%;
+    height: 20 vh;
+    background-color: rgb(117, 104, 104);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-2{
+    margin: 5px;
+    width: 100px;
+    height: 5vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.card-3{
+    width: 100px;
+    height: 5vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.card-4{
+    width: 100px;
+    height: 5vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.card-5{
+    width: 100px;
+    height: 5vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.card-6{
+    width: 100px;
+    height: 5vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.row-3{
+    gap: 10px;
+    width: 100%;
+    height: 20 vh;
+    background-color: rgb(100, 87, 87);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-3{
+    margin: 30px;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.col-4{
+    margin: 30px;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.col-5{
+    margin: 30px;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}

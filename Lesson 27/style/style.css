@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ota {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+body{
+    background-color: black;
+}
+
+.bola{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    gap: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width:1440px) and (min-width:1220px){
+    .bola{
+        background-color: red;
+    }
+
+    .bola:hover{
+        background-color: green;
+    }
+}
+
+@media screen and (max-width:1220px) and (min-width:720px){
+    body{
+        background-color: gold;
+    }
+
+    .bola{
+        background-color: blue;
+        width:200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:720px) and (min-width:360px){
+    body{
+        background-color: red;
+    }
+
+    .bola{
+        background-color: black;
+        width:200px;
+        height: 200px;
+    }
+}
